@@ -14,7 +14,7 @@ This example was created with A.I. (with extra mistakes added by hand) by Dr. Sc
 
 int main()
 {
-    srand(time(0)); // Seed the random number generator
+    srand(time(0)); // Seed the random number generator. 
 
     int initialBacteria; // Starting population of bacteria (should be initialized to 1000)
     int reproductionRate = 3; // Each bacterium reproduces three times per cycle
@@ -24,7 +24,7 @@ int main()
     int harmfulMutationEffect = 200; // Bacteria killed due to harmful mutation
     int cycles = 15 // Number of cycles to simulate
 
-    for (int i = 0; i < cycles; i++)
+    for (int i = 0; i < cycles; i++);
     {
         // Reproduction phase
         initialBacteria *= reproductionRate
